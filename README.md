@@ -1,2 +1,2 @@
 # WeatherDashboard
-Assignment for NU Coding Bootcamp
+Redoing this assignment.  As of 3/24/20, I am working on the layout using Bulma.
