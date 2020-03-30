@@ -7,10 +7,12 @@ function addItem() {
     document.getElementById("list").appendChild(newItem);
     saveList();
 }
+//clearing item when name of city clicked
 function removeItem() {
     document.getElementById("list").removeChild(this);
     saveList();
 }
+//adding to list of searched cities
 function saveList() {
     localStorage.storedList = document.getElementById("list").innerHTML;
 }
